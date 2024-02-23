@@ -55,3 +55,7 @@ Build ứng dụng thông qua Xcode và đẩy lên Testflight.
   gradlew bundleRelease
   ```
 - Bản cài sẽ nằm ở đường dẫn: android/app/build/outputs/apk/bundle/app-release.aab
+## Lỗi khi chạy pod install
+- Khắc phục: 
+Chạy lệnh pod deintegrate để clean sau đó chạy pod install lại: ./gradlew clean
+Chạy pod repo update để cập nhật lại phiên bản cho các pod
