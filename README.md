@@ -59,3 +59,13 @@ Build ứng dụng thông qua Xcode và đẩy lên Testflight.
 - Khắc phục: 
 Chạy lệnh pod deintegrate để clean sau đó chạy pod install lại: ./gradlew clean
 Chạy pod repo update để cập nhật lại phiên bản cho các pod
+```
+defaultConfig {
+        applicationId "com.tp.loigiaihay"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 236
+        versionName "2.4.8"
+        vectorDrawables.useSupportLibrary = true
+        setProperty("archivesBaseName", applicationId + "-v" + versionCode + "(" + versionName + ")")
+    }```
