@@ -60,6 +60,7 @@ Build ứng dụng thông qua Xcode và đẩy lên Testflight.
 Chạy lệnh pod deintegrate để clean sau đó chạy pod install lại: ./gradlew clean
 Chạy pod repo update để cập nhật lại phiên bản cho các pod
 ```
+## Thay config để build android để có file name theo version và versionCode đúng
 defaultConfig {
         applicationId "com.tp.loigiaihay"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -69,3 +70,15 @@ defaultConfig {
         vectorDrawables.useSupportLibrary = true
         setProperty("archivesBaseName", applicationId + "-v" + versionCode + "(" + versionName + ")")
     }```
+
+## Lỗi thư viện trên ios
+```
+dòng 44 sửa thành thế này khi build gặp lỗi
+static YGSize RNDateTimePickerShadowViewMeasure(YGNodeRef node, float width, YGMeasureMode widthMode, float height, YGMeasureMode heightMode)
+{
+```
+## với ios làm theo chỉ dẫn sau để cài đặt lại thư viện pod
+```cd ios
+pod deintegrate
+pod install```
+
