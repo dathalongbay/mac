@@ -3,6 +3,7 @@
 2. Cài đặt node_modules
 
 ```sh
+rm -rf node_modules
 yarn install
 ```
 
@@ -38,11 +39,11 @@ Build ứng dụng thông qua Xcode và đẩy lên Testflight.
 - Cd tới thư mục android và clean các dữ liệu cũ:
   ```sh
   cd android
-  gradlew clean
+  ./gradlew clean
   ```
 - Build bản Release:
   ```sh
-  gradlew assembleRelease
+  ./gradlew assembleRelease
   ```
 - Bản cài sẽ nằm ở đường dẫn: android/app/build/outputs/apk/release/app_release.apk
 
@@ -52,7 +53,7 @@ Build ứng dụng thông qua Xcode và đẩy lên Testflight.
 
 - Build bản bundleRelease và tải lên play console
   ```sh
-  gradlew bundleRelease
+  ./gradlew bundleRelease
   ```
 - Bản cài sẽ nằm ở đường dẫn: android/app/build/outputs/apk/bundle/app-release.aab
 ## Lỗi khi chạy pod install
