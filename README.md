@@ -61,7 +61,7 @@ Chạy lệnh pod deintegrate để clean sau đó chạy pod install lại: ./g
 Chạy pod repo update để cập nhật lại phiên bản cho các pod
 ```
 ## Thay config để build android để có file name theo version và versionCode đúng
-defaultConfig {
+```defaultConfig {
         applicationId "com.tp.loigiaihay"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
