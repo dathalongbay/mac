@@ -86,3 +86,6 @@ pod install```
 [Text của liên kết](https://itunes.apple.com/us/app/testflight/id899247664?advp=10000&ct=RJYH6C2SA5&mt=8&platform=ios)
 aa
 [Google](https://www.google.com)
+
+
+https://testflight.apple.com/v1/invite/eb560796f65245db8fcd5507a24a1a4840ea93898e1042d39816864900990f03481d7b1a?ct=RJYH6C2SA5&advp=10000&platform=ios
