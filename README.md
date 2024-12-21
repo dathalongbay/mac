@@ -83,3 +83,4 @@ static YGSize RNDateTimePickerShadowViewMeasure(YGNodeRef node, float width, YGM
 pod deintegrate
 pod install```
 
+https://itunes.apple.com/us/app/testflight/id899247664?advp=10000&ct=RJYH6C2SA5&mt=8&platform=ios
