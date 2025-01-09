@@ -1,6 +1,13 @@
 # mac
 
-2. Cài đặt node_modules
+1. lấy code mới nhất từ git
+```
+git fetch --all
+git checkout dev
+git pull
+```
+
+3. Cài đặt node_modules
 
 ```sh
 rm -rf node_modules
