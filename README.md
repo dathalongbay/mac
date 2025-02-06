@@ -1,4 +1,5 @@
 # mac
+https://docs.google.com/document/d/1v9l3hUnL3hcxcv0BkuTQ4wzqFar6zuALUsbst90v-SE/edit?tab=t.0
 
 1. lấy code mới nhất từ git
 ```
