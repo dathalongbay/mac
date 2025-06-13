@@ -1,4 +1,13 @@
 # mac
+# Fix lỗi fatal: Need to specify how to reconcile divergent branches
+
+Cách B: Bỏ commit local, dùng lại hoàn toàn từ remote (rất cẩn thận!)
+Dùng khi bạn chắc chắn commit local không cần giữ.
+git fetch
+git reset --hard origin/main
+
+##### Fix 
+
 https://docs.google.com/document/d/1v9l3hUnL3hcxcv0BkuTQ4wzqFar6zuALUsbst90v-SE/edit?tab=t.0
 
 1. lấy code mới nhất từ git
