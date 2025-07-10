@@ -1,4 +1,5 @@
 # mac
+https://www.bluelabellabs.com/blog/generate-apple-certificates-provisioning-profiles/
 # Fix lỗi fatal: Need to specify how to reconcile divergent branches
 
 Cách B: Bỏ commit local, dùng lại hoàn toàn từ remote (rất cẩn thận!)
