@@ -1,4 +1,8 @@
 # mac
+
+https://docs.google.com/document/d/1XPHksxDzfJFaOiBO7MYbSpakQnO1rcO3/edit?usp=sharing&ouid=107956345555974018959&rtpof=true&sd=true
+
+
 https://www.bluelabellabs.com/blog/generate-apple-certificates-provisioning-profiles/
 # Fix lỗi fatal: Need to specify how to reconcile divergent branches
 
